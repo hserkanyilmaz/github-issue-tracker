@@ -15,25 +15,14 @@ A Claude Code plugin that tracks which GitHub issue or PR you're working on. It 
 
 ## Installation
 
-### From GitHub (custom marketplace)
+### From Claude Code CLI
 
-Add to your `~/.claude/settings.json`:
-
-```json
-{
-  "extraKnownMarketplaces": {
-    "github-issue-tracker": {
-      "source": {
-        "source": "github",
-        "repo": "hserkanyilmaz/github-issue-tracker"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "github-issue-tracker@github-issue-tracker": true
-  }
-}
+```bash
+/plugin marketplace add hserkanyilmaz/github-issue-tracker
+/plugin install github-issue-tracker@github-issue-tracker
 ```
+
+Then run `/reload-plugins` to apply.
 
 ### Local development
 

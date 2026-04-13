@@ -1,9 +1,9 @@
 {
   "name": "github-issue-tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Displays the active GitHub issue or PR title in your Claude Code session. Auto-detects issue URLs from prompts and provides slash commands for manual control.",
   "author": {
-    "name": "Hakan Serkan Yilmaz",
+    "name": "Hasan Serkan Yilmaz",
     "url": "https://github.com/hserkanyilmaz"
   },
   "repository": "https://github.com/hserkanyilmaz/github-issue-tracker",

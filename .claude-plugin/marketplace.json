@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Claude Code plugin for tracking active GitHub issues and PRs",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   "plugins": [
     {
       "name": "github-issue-tracker",
       "source": "./",
       "description": "Displays the active GitHub issue or PR title in your Claude Code session. Auto-detects issue URLs from prompts and provides slash commands for manual control.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Hasan Serkan Yilmaz"
       },
